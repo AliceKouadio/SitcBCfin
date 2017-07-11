@@ -1,0 +1,130 @@
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+
+h1 {
+	font-size: 2em;
+	line-height: 1;
+}
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+p {
+	margin: 0 0 1.5em 0;
+}
+.clear{
+	overflow: auto;
+}
+
+.float-right{
+	float: right;
+	padding-right: 10px;
+}
+
+.float-left{
+	float: left;
+	padding-right: 20px;
+}
+
+.one-third{
+	width: 25%;
+}
+
+.content{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.page-header{
+	background: black;
+	border-bottom: 5px solid yellow;
+}
+
+.page-subheader{
+	background: #C6C6C6;
+	text-align: center;
+}
+
+.page-header h1{
+	color: yellow;
+}
+
+.page-nav{
+	text-align: right;
+}
+
+.page-nav a {
+	color: white;
+}
+
+.page-nav .large{
+	/*large link text CSS here*/
+}
+
+.page-main{
+	background-image: url(../images1/coworking.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 1em;
+}
+
+.page-main .content{
+	padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+	
+.page-main .create{
+	background-color: rgba(255, 255, 255, 0.6);
+	max-width: 25%;
+	padding: 1em;
+}	
+
+.page-articles .middle-article{
+	border-right: 1px solid #C6C6C6;
+	border-left: 1px solid #C6C6C6;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.page-articles .content-clear{
+	border-right: 1px solid #C6C6C6;
+	border-left: 1px solid #C6C6C6;
+	padding-right: 25px;
+	padding-left: 5px;
+}
+.page-articles .content article:first-child{
+	padding-right: 5px;
+}
+
+.page-articles .content article:last-child{
+	padding-left: 5px;
+}
+
+.button{
+	background: #C6C6C6;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 1em;
+	box-shadow: 0 3px 0 rgb(85, 85, 85);
+	border-radius: 5px;
+}
+
+.button-create{
+	background: yellow;
+	box-shadow: 0 3px 0 rgb(180, 180, 180);
+}

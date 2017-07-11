@@ -1,0 +1,106 @@
+header nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li{
+	float: left;
+	width: 16.66667%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+header nav a{
+	display: block;
+	font-size: 1.25em;
+	color: white;
+	margin-right: 0px;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.rew{
+	color: white;
+	background-color: #2b2d34;
+}
+
+.riw{
+	font-size:20px; 
+}
+h1{
+	font-size:60px; 
+}
+
+
+.btn-primary{
+	border-color:  #5cb85c;
+	background-color: #5cb85c;
+	border-radius: 30px;
+
+}
+
+.btn-default1{
+	background-color: black;
+	border-color:  green;
+	border-radius: 30px;
+}
+
+.btn-lg{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+.ruw{
+	text-align: center;
+}
+/*footer*/
+.row{
+	margin-top: 30px;
+	margin-left:0px;
+}
+
+.wrapper{
+	margin-top: 40px;
+}
+	
+.wrap1{
+	font-size: 30px;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.col-sm-3 h4{
+	text-align: left;
+}
+.col-sm-3 h6{
+	text-align: left;
+}
+
+/* id=footer*/
+#footer{
+	background-color: #2b2d34;
+	color: #aaaaaa;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	border-top: 1px solid #DDD;
+	display: inline-block;
+}
+
+#footer a{
+	color: white;
+}
+#footer a:hover{
+	color: white;
+}
+#footer p{
+	font-size: 10px;
+	font-family: verdana;
+	color: white;
+	display: inline-block;
+}
